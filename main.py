@@ -21,8 +21,8 @@ class Imessage(object):
 
 def send(n, m):
     os.system('chmod +x read_text.sh')
-    msg = Imessage(
-    msg.create_isms(n,m)
+    msg = Imessage(n, m)
+    msg.create_isms()
     msg.execute()
     return 0
   
@@ -30,5 +30,5 @@ def send(n, m):
 
    
 
-if __name__ == "__main__":
-    send("12344567890", "test")
+if __name__ == "__main__": 
+    send("000000000", "test")
