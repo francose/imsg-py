@@ -26,9 +26,6 @@ def send(n, m):
     msg.execute()
     return 0
   
-    
-
-   
 
 if __name__ == "__main__": 
-    send("000000000", "test")
+    send("000000000000", "Test SMS")
