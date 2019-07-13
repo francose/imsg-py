@@ -13,10 +13,10 @@ tell application "Messages"
     -- then send the text in the 'message' variable to that recipient  
     repeat with recipient in words of recipients
     	set recipient to buddy recipient of targetService
-        send message to recipient
-	delay 1
+          # repeat 100 times
+                send message to recipient
+           # end repeat
     end repeat
 
-    quit
 
 end tell

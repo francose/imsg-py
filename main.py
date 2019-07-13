@@ -28,4 +28,4 @@ def send(n, m):
   
 
 if __name__ == "__main__": 
-    send("12019522808", "Nasil islerini hallede bildin mi  ??")
+    send("000000000000", "Test SMS")
